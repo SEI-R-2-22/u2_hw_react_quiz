@@ -34,7 +34,7 @@ Your answer here
 Your answer here
 ```
 
-### 6. What direction are props and state passed in a React Component?
+### 6. What direction are props passed in a React Component?
 ```sh
 Your answer here
 ```
