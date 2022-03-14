@@ -58,7 +58,7 @@ Props are passed downward from parent to child components. There is a unidirecti
 ### 7. How is a React Component accessed in another file?
 
 ```sh
-Your answer here
+The file in which the functional component is declared must include an export statement, and the component is then imported into another file by using an import statement, e.g., import Movie from './Movie'
 ```
 
 ### 8. How do we gain access to props in a child component?
