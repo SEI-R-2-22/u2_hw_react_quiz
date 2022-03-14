@@ -32,7 +32,7 @@ npm start
 ### 4. What folder in a React App should component files be created in?
 
 ```sh
-components
+src > components
 ```
 
 ### 5. What is the syntax for a function based component?
