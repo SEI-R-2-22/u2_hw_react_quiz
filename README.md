@@ -65,5 +65,5 @@ import Thing from './component/Thing'
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-Add prop as an arguement
+Add props as an arguement i.e. Button = (props) => {...}
 ```
