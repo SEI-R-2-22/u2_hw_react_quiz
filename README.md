@@ -20,7 +20,7 @@ npx create-react-app app-name
 ### 2. If you clone a React App that has already been created, what command is needed to start developing with its dependencies?
 
 ```sh
-Your answer here
+npm install
 ```
 
 ### 3. How do you start the in-browser development server for a React App?
