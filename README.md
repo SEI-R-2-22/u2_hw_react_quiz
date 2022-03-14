@@ -38,11 +38,11 @@ Inside the src/ directory (more specifically, often inside a components/ subdire
 ### 5. What is the syntax for a function based component?
 
 ```sh
-The name of a functional component is PascalCased. The functional component body includes component-specific variables and logic, and it must include a return statement to display UI elements. Beneath the functional component declaration, we must include an export statement. Here is an example of a functional component:
+The name of a functional component is PascalCased. The functional component body includes component-specific variables and logic, and it must include a return statement to display elements in the UI. Beneath the functional component declaration, we must include an export statement. Here is an example of a functional component:
 const MyFunctionalComponent = () => {
   return (
     <div>
-      <h1>Some code to display in the UI goes here</h1>
+      <h1>Some example code to display in the UI</h1>
     </div>
   )
 }
@@ -58,12 +58,12 @@ Props are passed downward from parent to child components. There is a unidirecti
 ### 7. How is a React Component accessed in another file?
 
 ```sh
-The file in which the functional component is declared must include an export statement, and the component is then imported into another file by using an import statement, e.g., import Movie from './Movie'
+The file in which the functional component is declared must include an export statement, and the component is then imported into another file by using an import statement in that file, e.g., import Movie from './Movie'
 ```
 
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-When a child component is rendered from a parent component, props are passed from the parent component to the child component using the syntax: <ChildComponent propName={propValue} />
-Properties are then accessed in the child component by extracting them from the prop object using dot notation.
+When a child component is rendered from a parent component, props are passed from the parent component to the child component using the syntax: <ChildComponentRendered propName={propValue} />
+Properties are then accessed in the child component by extracting them from the prop object using dot notation, e.g., props.title
 ```
