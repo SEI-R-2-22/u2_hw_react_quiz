@@ -52,7 +52,7 @@ export default MyFunctionalComponent
 ### 6. What direction are props passed in a React Component?
 
 ```sh
-Your answer here
+Props are passed downward from parent to child components. There is a unidirectional data flow.
 ```
 
 ### 7. How is a React Component accessed in another file?
