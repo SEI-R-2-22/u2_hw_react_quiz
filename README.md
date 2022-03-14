@@ -14,7 +14,7 @@
 ### 1. How do you create a React App from the terminal command line?
 
 ```sh
-npm create-react-app filename
+npx create-react-app filename
 ```
 
 ### 2. If you clone a React App that has already been created, what command is needed to start developing with its dependencies?
