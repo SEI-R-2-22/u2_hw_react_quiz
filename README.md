@@ -32,13 +32,21 @@ npm start
 ### 4. What folder in a React App should component files be created in?
 
 ```sh
-/src/components/
+Inside the src/ directory (more specifically, often inside a components/ subdirectory within src/)
 ```
 
 ### 5. What is the syntax for a function based component?
 
 ```sh
-Your answer here
+The name of a functional component is PascalCased. The functional component body includes component-specific variables and logic, and it must include a return statement to display UI elements. Beneath the functional component declaration, we must include an export statement. Here is an example of a functional component:
+const MyFunctionalComponent = () => {
+  return (
+    <div>
+      <h1>Some code to display in the UI goes here</h1>
+    </div>
+  )
+}
+export default MyFunctionalComponent
 ```
 
 ### 6. What direction are props passed in a React Component?
