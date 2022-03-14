@@ -14,47 +14,73 @@
 ### 1. How do you create a React App from the terminal command line?
 
 ```sh
-Your answer here
+Navigate to the directory for the App, enter the command: "npx create-react-app [name-of-app]"
 ```
 
 ### 2. If you clone a React App that has already been created, what command is needed to start developing with its dependencies?
 
 ```sh
-Your answer here
+Clone repo, use command "npm install" ? 
 ```
 
 ### 3. How do you start the in-browser development server for a React App?
 
 ```sh
-Your answer here
+From within main (master) directory, run command "npm start", then open a new Command terminal if you want to do anything else, since the first one is now running your live server :) 
 ```
 
 ### 4. What folder in a React App should component files be created in?
 
 ```sh
-Your answer here
+In the "src" directory
 ```
 
 ### 5. What is the syntax for a function based component?
 
 ```sh
-Your answer here
+import React from 'react'
+
+function ComponentName(props) {
+  ...
+  return (
+    <div>
+      DOM-style html content, with only one parent-level element, and everything else contained within
+    </div>
+  )
+}
+
+export default ComponentName
 ```
 
 ### 6. What direction are props passed in a React Component?
 
 ```sh
-Your answer here
+Unidirectionally, from Parent Component → Child Component
 ```
 
 ### 7. How is a React Component accessed in another file?
 
 ```sh
-Your answer here
+At the top of the .js file, use: 
+"import ComponentName from './ComponentName'
 ```
 
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-Your answer here
+First, you have to pass props from the Parent component via the HTML tags, e.g.:
+
+"<ComponentName text="string content here" myFunction={someFunctionName / Array / Object / Etc.}>"
+
+...and then in the child component, call "props" as the function argument, and then use {dot.notation} to access, e.g:
+
+"ComponentName(props) {
+  return (
+    <div>
+      <button onClick={props.myFunction}>
+        {props.text}
+      </button>
+    </div>
+  )
+}"
 ```
