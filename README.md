@@ -64,5 +64,6 @@ The file in which the functional component is declared must include an export st
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-Your answer here
+When a child component is rendered from a parent component, props are passed from the parent component to the child component using the syntax: <ChildComponent propName={propValue} />
+Properties are then accessed in the child component by extracting them from the prop object using dot notation.
 ```
