@@ -14,47 +14,47 @@
 ### 1. How do you create a React App from the terminal command line?
 
 ```sh
-Your answer here
+We can use create-react-app to create a React App. We call it using the command npx create-react-app my-app. This will then generate a folder called my-app. In there, we can find the src folder where we can write the majority of our code.
 ```
 
 ### 2. If you clone a React App that has already been created, what command is needed to start developing with its dependencies?
 
 ```sh
-Your answer here
+npm install
 ```
 
 ### 3. How do you start the in-browser development server for a React App?
 
 ```sh
-Your answer here
+npm start command in the terminal
 ```
 
 ### 4. What folder in a React App should component files be created in?
 
 ```sh
-Your answer here
+src folder
 ```
 
 ### 5. What is the syntax for a function based component?
 
 ```sh
-Your answer here
+Its name should be written in Pascal Case (but that is a convention). Its return statement includes the HTML-appearing elements that will be displayed. After the completion of the function, an export statement needs to be used for the component to be accessed by other places.
 ```
 
 ### 6. What direction are props passed in a React Component?
 
 ```sh
-Your answer here
+Props are passed downward. It is best practice to keep them as high in the tree as possible so that they can be correctly used by any components further downstream.
 ```
 
 ### 7. How is a React Component accessed in another file?
 
 ```sh
-Your answer here
+The other file needs to have an import statement. The React Component is imported from its location in the file directory using './' at the start of its file path.
 ```
 
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-Your answer here
+We use syntax similar to string literals where the prop names are written inside curly braces.
 ```
