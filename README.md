@@ -32,7 +32,7 @@ npm start
 ### 4. What folder in a React App should component files be created in?
 
 ```sh
-./src/components
+/src/components
 ```
 
 ### 5. What is the syntax for a function based component?
@@ -49,12 +49,16 @@ import React from 'react'
 function ComponentName () {
   const method1 = () => {}
 
-  return <div></div>
-} 
+  return (
+    <div>
+      "content"
+    </div>
+  );
+};
 
 # don't forget to export
 
-export default ComponentName
+export default ComponentName;
 
 ```
 
@@ -67,11 +71,12 @@ Downward
 ### 7. How is a React Component accessed in another file?
 
 ```sh
-In order to use a React Component in another file you have to import it and add props as an argument. 
+In order to use a React Component in another file you have to import it and add it to the current markup. For example, we did this with <Button /> in the component lesson.
 ```
 
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-Send the props down the component tree. Import from the parent. Also, add props as an argument. 
+In order to gain access to props in a child component, the props would have to be passed down the component tree. Make sure (props) is an argument and import into the child.
+
 ```
