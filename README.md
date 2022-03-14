@@ -26,7 +26,7 @@ npm install
 ### 3. How do you start the in-browser development server for a React App?
 
 ```sh
-npm start
+In the terminal type: npm start
 ```
 
 ### 4. What folder in a React App should component files be created in?
@@ -56,7 +56,7 @@ Props are pieces of information passed in a uni-directional flow (one way from p
 ### 7. How is a React Component accessed in another file?
 
 ```sh
-In order to access a component in another file, you have to import the component into the current file you are working on. Example of the syntax is below.
+In order to access a component in another file, you have to import the component at the top of the .js file you are working on. Once it is imported you can go ahead and call the component into your file. Example of the syntax is below.
 
 import ComponentName from "./components/ComponentName"
 
@@ -68,6 +68,6 @@ import ComponentName from "./components/ComponentName"
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-Props is an oject that contains properties as a key/value pair. Use {} to access the prop and the name of the key to get the value.
-ex: {props.text}
+Props needs to be passed as a parameter when creating the component function. Since props is an oject that contains properties as a key/value pair. Use {} to access the prop and the name of the key to get the value.
+ex: <Button {props.text}
 ```
