@@ -26,7 +26,7 @@ npm install
 ### 3. How do you start the in-browser development server for a React App?
 
 ```sh
-Your answer here
+npm start
 ```
 
 ### 4. What folder in a React App should component files be created in?
