@@ -14,46 +14,54 @@
 ### 1. How do you create a React App from the terminal command line?
 
 ```sh
-Your answer here
+create-react-app
 ```
 
 ### 2. If you clone a React App that has already been created, what command is needed to start developing with its dependencies?
 
 ```sh
-Your answer here
+npm install
+
 ```
 
 ### 3. How do you start the in-browser development server for a React App?
 
 ```sh
-Your answer here
+npm start
 ```
 
 ### 4. What folder in a React App should component files be created in?
 
 ```sh
-Your answer here
+components
 ```
 
 ### 5. What is the syntax for a function based component?
 
 ```sh
-Your answer here
+function Shows(props) {
+  return <button onClick={props.handleClick}>{props.text}</button>
+}
 ```
 
 ### 6. What direction are props passed in a React Component?
 
 ```sh
-Your answer here
+passed down
 ```
 
 ### 7. How is a React Component accessed in another file?
 
 ```sh
-Your answer here
+by using import at the top of the page.
+import Shows from './components/Movie'
 ```
 
 ### 8. How do we gain access to props in a child component?
+
+you insert props into the function
+return what you need
+use dot notation to use they key to call what you need. ex. {props.poster}, {props.shows}, {props.episodes}
 
 ```sh
 Your answer here
