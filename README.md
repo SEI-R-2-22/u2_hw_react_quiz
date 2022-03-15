@@ -21,13 +21,13 @@ npx create-react-app appName
 ### 2. If you clone a React App that has already been created, what command is needed to start developing with its dependencies?
 
 ```sh
-npm install then npm start
+npm install
 ```
 
 ### 3. How do you start the in-browser development server for a React App?
 
 ```sh
-Download the chrome extension for it and then enter the developer console and click on the arrows on the line with Console and Elements to see the React items available.
+npm start
 ```
 
 ### 4. What folder in a React App should component files be created in?
@@ -39,7 +39,13 @@ SRC
 ### 5. What is the syntax for a function based component?
 
 ```sh
-<component prosName={propsValue}>
+const componentName = () => {
+
+return  (
+  <div></div>
+)
+}
+export default componentName
 ```
 
 ### 6. What direction are props passed in a React Component?
@@ -57,5 +63,5 @@ You must export the component in the current file and import it in the other fil
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-Since things cascade down, you have access to child component using dot and bracket notation.
+Pass props into the props object. The properties on the prop object are available the componenet.
 ```
