@@ -14,47 +14,49 @@
 ### 1. How do you create a React App from the terminal command line?
 
 ```sh
-Your answer here
+After cd-ing to your directory of choice (within the terminal), run the command "npx create-react-app [name]", replacing "[name]" with whatever you wish to call your React App.
 ```
 
 ### 2. If you clone a React App that has already been created, what command is needed to start developing with its dependencies?
 
 ```sh
-Your answer here
+After forking and cloning, run (in terminal) "npm install", then "code .", "npm start".
 ```
 
 ### 3. How do you start the in-browser development server for a React App?
 
 ```sh
-Your answer here
+In the directory for your React App run the command "npm start".
 ```
 
 ### 4. What folder in a React App should component files be created in?
 
 ```sh
-Your answer here
+In a folder named "components".
 ```
 
 ### 5. What is the syntax for a function based component?
 
 ```sh
-Your answer here
+function ComponentName() {
+  return <div></div>
+}
 ```
 
 ### 6. What direction are props passed in a React Component?
 
 ```sh
-Your answer here
+Downwards.
 ```
 
 ### 7. How is a React Component accessed in another file?
 
 ```sh
-Your answer here
+To access your React Component in another file you have to "import" it with a line of code using the format: " import React from 'react' "
 ```
 
 ### 8. How do we gain access to props in a child component?
 
 ```sh
-Your answer here
+After importing your React Component, you can access whichever prop you are interested in, first by creating a function with "props" in the parameter, and then in the location that you want to place it, by using the syntax " { props.blank } ". "blank" here represents whatever you named your prop in your React Component.
 ```
